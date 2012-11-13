@@ -10,9 +10,8 @@ i, l = 0, coll.count
 
 while i < l
   student = s_coll[i]
-  #puts "#{student['_id']} : HW1 => #{student['scores'][2]} / HW2 => #{student['scores'][3]}"
   lower_hw_index = if student['scores'][2]['score'] < student['scores'][3]['score']
-      2
+  	  2
 	else
 	  3
 	end
